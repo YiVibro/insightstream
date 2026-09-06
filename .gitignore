@@ -1,0 +1,64 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+# =========================
+# Environment variables / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React / Vite
+# =========================
+
+node_modules/
+dist/
+build/
+
+# =========================
+# Frontend-specific
+# =========================
+
+insightstream_frontend/.env
+insightstream_frontend/node_modules/
+insightstream_frontend/dist/
+
+# =========================
+# Bolt
+# =========================
+
+insightstream_frontend/.bolt/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+docker
